@@ -1,0 +1,27 @@
+[
+    {
+        "title": "Programming",
+        "content": "C/C++, Java, Python, JavaScript, C#",
+        "icon_name": "fa-solid fa-code"
+    },
+    {
+        "title": "Game Development",
+        "content": "Unity",
+        "icon_name": "fa-solid fa-gamepad"
+    },
+    {
+        "title": "Machine Learning",
+        "content": "Tensorflow, Pytorch",
+        "icon_name": "fa-solid fa-brain"
+    },
+    {
+        "title": "Web Development",
+        "content": "React, PHP, Node.js",
+        "icon_name": "fa-solid fa-globe"
+    },
+    {
+        "title": "Others",
+        "content": "Docker, Git, Socket, Protobuf, MySQL",
+        "icon_name": "fa-brands fa-ubuntu"
+    }
+]
