@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/guanweichen/static/css/main.073c9b0a.css",
-    "main.js": "/guanweichen/static/js/main.9d6f02d6.js",
+    "main.js": "/guanweichen/static/js/main.bbac90f4.js",
     "static/js/787.edddaab2.chunk.js": "/guanweichen/static/js/787.edddaab2.chunk.js",
     "static/media/logo.svg": "/guanweichen/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/guanweichen/index.html",
     "main.073c9b0a.css.map": "/guanweichen/static/css/main.073c9b0a.css.map",
-    "main.9d6f02d6.js.map": "/guanweichen/static/js/main.9d6f02d6.js.map",
+    "main.bbac90f4.js.map": "/guanweichen/static/js/main.bbac90f4.js.map",
     "787.edddaab2.chunk.js.map": "/guanweichen/static/js/787.edddaab2.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.073c9b0a.css",
-    "static/js/main.9d6f02d6.js"
+    "static/js/main.bbac90f4.js"
   ]
 }
