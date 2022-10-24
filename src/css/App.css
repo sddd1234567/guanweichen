@@ -1,0 +1,401 @@
+/* .App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
+
+p {
+  margin: unset;
+}
+
+.header {
+  /* background-image: url(https://img.freepik.com/free-vector/deep-forest-with-sunny-glade-green-grass-tree-trunks-silhouettes-vector-cartoon-illustration-summer-woods-landscape-with-sunshine-beams-jungle-panorama-with-green-lawn_107791-10548.jpg?w=826&t=st=1664821288~exp=1664821888~hmac=81ceaaa…); */
+  /* height: 60px;
+  align-items: center; */
+  transition: 1s;
+}
+
+.header-item-container {
+  flex-grow: 0;
+}
+
+.header-title{
+    /* margin-left: 20px; */
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.header-item-container a{
+    font-size: 15px;
+}
+
+/* .my-img {
+  height: 500px;
+  max-width: 50%;
+  background-size: contain;
+  background-repeat: no-repeat;
+} */
+
+.about-container {
+  background-image: linear-gradient(to left, #ffe4d3, #d2ffe4);
+}
+
+.about-main-img{
+  padding-bottom: 56%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  background-position-y: 100px;
+}
+
+.about-title-container {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+h1.about-title{
+  text-align: center;
+}
+
+.about-link{
+  text-align: center;
+  padding-top: 5px;
+}
+
+.home-project-block{
+  padding: 30px;
+}
+
+
+.home-project-content-text{
+  font-size: 13px;
+}
+
+.home-project-content-container{
+  padding-top: 20px;
+}
+
+.bold{
+  font-weight: bold;
+}
+
+hr.home-title-divider {
+  color: black;
+  height: 1.5px;
+  border-top-color: black;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.home-project-title{
+  padding-top: 20px;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+a.home-project-title{
+  text-decoration: unset;
+  color: black;
+}
+
+a .home-project-title{
+  transition: 0.3s;
+}
+
+a .home-project-title:hover{
+  color: rgb(196, 196, 196);
+}
+
+.expertise-icon {
+  color: brown;
+}
+
+.expertise-title {
+  margin-top: 0.2rem;
+  font-weight: bold;
+}
+
+.expertise-content {
+  margin-top: 0.5rem;
+  font-size: 15px;
+  font-weight: 500;
+  color: crimson;
+}
+
+.pixel-font {
+  font-family: 'Silkscreen', serif;
+}
+
+.content-font {
+  font-family: 'Ubuntu', serif;
+}
+
+.title-font {
+  /* font-family: 'Abril Fatface', serif; */
+  font-family: 'Carter One', serif;
+}
+
+body {
+  /* font-family: 'Abril Fatface', serif; */
+  font-family: 'Carter One', serif;
+}
+
+.modal-title {
+  font-size: 35px;
+}
+
+.home-subtitle {
+  color: white;
+  text-align: center;
+  margin-bottom: 0px;
+}
+
+.project-button-container {
+  width: 100%;
+  max-width: 800px;
+}
+
+.project-description {
+  padding: 10px;
+}
+
+.project-description-container {
+  width: 100%;
+  margin-top: 50px;
+  background-color: #75bade;
+  padding: 35px;
+  padding-top: 25px;
+  border-radius: 25px;
+  color: white;
+  text-align: left;
+  transition: 1s;
+  opacity: 1;
+  cursor: pointer;
+  height: 420px;
+  transition: 0.5s;
+}
+
+.project-description-container:hover {
+  opacity: 0.7;
+  /* background-color: #9faffd; */
+}
+
+.project-item-button {
+  place-self: center;
+}
+
+.project-description-image {
+  width: 100%;
+  border-radius: 25px;
+  height: 190px;
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.project-slider-container {
+  background-color: #4c4c4c;
+  text-align: center;
+  padding: 20px
+}
+
+.select-project-button {
+  background-color: #281a1a8a;
+  border-color: #ff6060;
+  border-radius: 25px;
+  border: none;
+  padding: 8px;
+  padding-left: 15px;
+  color: white;
+  padding-right: 15px;
+  transition: 0.5s;
+  margin-top: 10px
+}
+
+.select-project-button:hover {
+  background-color: #b45a3d;
+}
+
+.modal-dialog {
+  max-width: 1600px;
+}
+
+.modal-dialog img {
+  max-width: 100%;
+  margin: 5px;
+}
+
+.project-slider-title {
+  margin-bottom: 20px;
+}
+
+.modal-content {
+  font-size: 20px;
+  background-color: #42424200;
+  color: white;
+  border: none;
+}
+
+.close-modal-button {
+  color: white;
+  background-color: transparent;
+  border: none;
+  font-size: 25px;
+}
+
+.modal {
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.modal li{
+  margin-bottom: 15px;
+}
+
+.modal li li{
+  margin-bottom: 10px;
+}
+
+.modal li li li{
+  margin-bottom: 5px;
+}
+
+.modal .btn-close {
+  color: white;
+}
+
+.modal iframe {
+  max-width: 100%;
+  max-height: 48vw;
+}
+
+.modal video {
+  max-width: 100%;
+  max-height: 48vw;
+}
+
+.modal a {
+  color: #a7caff;
+  text-decoration: underline;
+  transition: 0.3s;
+}
+
+.modal a:hover {
+  color: #617aa0;
+}
+
+/* @keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-moz-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-webkit-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-o-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-ms-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+} */
+
+/* ======================== media query ======================== */
+
+@media (min-width: 768px) {
+  .about-main-img{
+    padding-bottom: 27%;
+  }
+  
+  .about-title-container{
+    margin-top: 30%;
+    margin-bottom: 30%;
+  }
+
+  .home-project-title{
+    padding-top: 0px;
+  }
+
+  .project-description-container {
+    height: 300px;
+  }
+}
+
+@media (min-width: 992px) {
+  .main-container {
+    padding-top: 105px;
+    min-height: calc(100vh - 287.5px);
+  }
+  
+  .header {
+    padding: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    z-index: 10;
+  }
+
+  .header-hide{
+    top: -87px;
+  }
+  
+  .home-project-content-text{
+    font-size: 15px;
+  }
+
+  .home-project-title{
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  .project-description-image {
+    height: 350px;
+  }
+
+  .project-description-container {
+    height: 450px;
+  }
+}
