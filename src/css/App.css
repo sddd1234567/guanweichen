@@ -204,7 +204,7 @@ body {
   transition: 1s;
   opacity: 1;
   cursor: pointer;
-  height: 420px;
+  /* height: 420px; */
   transition: 0.5s;
 }
 
