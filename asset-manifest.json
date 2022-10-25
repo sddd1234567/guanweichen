@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/guanweichen/static/css/main.b309f5ac.css",
+    "main.css": "/guanweichen/static/css/main.a1afb76a.css",
     "main.js": "/guanweichen/static/js/main.4f641e24.js",
     "static/js/787.edddaab2.chunk.js": "/guanweichen/static/js/787.edddaab2.chunk.js",
     "static/media/myimg_for_web.png": "/guanweichen/static/media/myimg_for_web.b052dce6424d6a32f8c8.png",
@@ -18,12 +18,12 @@
     "static/media/dropping_dot.md": "/guanweichen/static/media/dropping_dot.71cba0379fe32af32f32.md",
     "static/media/meowmeow.md": "/guanweichen/static/media/meowmeow.a43f5c2d2352c50771c4.md",
     "static/media/ifschool.md": "/guanweichen/static/media/ifschool.d272f612119489d7e82e.md",
-    "main.b309f5ac.css.map": "/guanweichen/static/css/main.b309f5ac.css.map",
+    "main.a1afb76a.css.map": "/guanweichen/static/css/main.a1afb76a.css.map",
     "main.4f641e24.js.map": "/guanweichen/static/js/main.4f641e24.js.map",
     "787.edddaab2.chunk.js.map": "/guanweichen/static/js/787.edddaab2.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b309f5ac.css",
+    "static/css/main.a1afb76a.css",
     "static/js/main.4f641e24.js"
   ]
 }
