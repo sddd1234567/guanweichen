@@ -28,7 +28,6 @@ const Button = (props) => {
 const ProjectDescription = (props) => {
     const { image, title, description, content, style } = props
     const {setTitle, setContent} = useModal()
-    console.log(image)
     const get_content_text = async (md_file_path) => {
         const response = await fetch(md_file_path)
         const text = await response.text()
@@ -40,9 +39,6 @@ const ProjectDescription = (props) => {
         const md = await get_content_text(content)
         setTitle(title)
         setContent(<ReactMarkdown rehypePlugins={[rehypeRaw]}>{md}</ReactMarkdown>)
-        // setContent(md)
-        // console.log(content)
-        // setContent(content)
     }
 
     const toggleModalActivate = () => {
@@ -55,7 +51,7 @@ const ProjectDescription = (props) => {
         {/* <Button data-toggle="modal" data-target="#project-modal">Toggle</Button> */}
         <div className="project-description-container" style={style} onClick={toggleModalActivate} data-bs-toggle="modal" data-bs-target="#project-modal">
             <h3 style={{marginLeft: 2}}>{title}</h3>
-            <div className="row">
+            <div className="row project-slider-row">
                 <div className="col-12 col-md-6">
                     <div className="project-description-image" style={{backgroundImage: `url(${image})`}} alt="Background"></div>
                 </div>

@@ -360,6 +360,11 @@ body {
   .project-description-container {
     height: 300px;
   }
+  
+  .project-slider-row {
+    max-height: calc(100% - 36px);
+    overflow: hidden;
+  }
 }
 
 @media (min-width: 992px) {
@@ -398,4 +403,5 @@ body {
   .project-description-container {
     height: 450px;
   }
+
 }

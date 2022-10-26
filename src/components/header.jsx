@@ -12,7 +12,6 @@ const Header = () => {
             else {
                 set_header_hide(true)
             }
-            // console.log('window.scrollY', window.scrollY);
         };
     
         window.addEventListener('scroll', handleScroll);
