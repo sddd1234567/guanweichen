@@ -1,21 +1,3 @@
-// import ReactMarkdown from 'react-markdown'
-
-// import liquidknight_image from "../img/liquidknight/login_2.jpg"
-// import dropping_dot_image from "../img/droppingdot/icon.png"
-// import eternal_melody_image from '../img/eternalmelody/eternal_melody_banner.png'
-// import ruminating_image from '../img/ruminating/ruminating_banner.png'
-
-
-// import meowmeow_image from '../img/meowmeow/logo2.png'
-// import ifschool_image from '../img/ifschool/home.jpg'
-// import utopia_image from '../img/utopia/courselist.jpg'
-// import gameet_image from '../img/gameet/logo.png'
-
-// import colorization_image from '../img/ai_game_art/line_art_colorization/colorization.png'
-// import ifschool_image from '../img/ifschool/home.jpg'
-// import utopia_image from '../img/utopia/courselist.jpg'
-// import gameet_image from '../img/gameet/logo.png'
-
 import eternal_melody_md_file from './project_md/eternal_melody.md'
 import liquid_knight_md_file from './project_md/liquid_knight.md'
 import dropping_dot_md_file from './project_md/dropping_dot.md'

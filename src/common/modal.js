@@ -1,29 +1,3 @@
-import {useEffect, useRef} from 'react'
-
-// var globalModal = undefined
-
-
-// const useModal = () => {
-//     const modalRef = useRef(globalModal)
-
-//     useEffect(() => {
-//         modalRef.current = globalModal
-//     }, []);
-
-//     const getModal = () => {
-//         return modalRef.current
-//     }
-
-//     const setModal = (modal) => {
-//         globalModal = modal
-//         modalRef.current = modal
-//     }
-
-//     return [getModal, setModal]
-// }
-
-// export {useModal}
-
 import React, { createContext, useState, useContext} from "react";
 
 const ModalContext = createContext()

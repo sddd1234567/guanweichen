@@ -1,10 +1,12 @@
-![](https://i.imgur.com/MBmLF1x.png)
 ![](/guanweichen/projects/ruminating/ruminating_banner.png)
 
 Ruminating is a casual game we made in hackathon.
 
 In Ruminating, player can select three foods to eat. Drink some beer and start your Ruminating!
+# 
+<a href="https://joanxia.itch.io/ruminating" target="_blank">Game Link</a>
 
+# 
 
 ![](/guanweichen/projects/ruminating/vomit.png)
 
